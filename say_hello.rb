@@ -9,7 +9,7 @@ def wow(your_name = "heyyyyy")
 end
 wow("yes")
 
-def wowz(your_name = gets.chomp)
+def wowz(your_name = "Ruby Programmer")
   puts "Hello #{your_name}"
-end
+end(gets.chomp)
 wowz
