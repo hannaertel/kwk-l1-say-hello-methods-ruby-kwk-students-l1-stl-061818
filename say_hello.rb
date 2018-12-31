@@ -10,6 +10,7 @@ end
 wow("yes")
 
 def wowz(your_name = "Ruby Programmer")
+  your_name = gets.chomp
   puts "Hello #{your_name}"
-end(gets.chomp)
+end
 wowz
